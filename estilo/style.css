@@ -70,9 +70,10 @@ main{
     font-size: 1em;
 }
 
-main section h1{
+.titulos-principais{
     font-family: var(--fonte-titulos);
     font-size: 2em;
+    font-variant: normal;
     color: var(--cor0);
 
     margin-left: 30px;
@@ -81,7 +82,7 @@ main section h1{
 main section img{
     display: inline-block;
     width: 20%;
-    padding: 20px;
+    padding: 15px;
 }
 
 .descrição{
@@ -105,3 +106,29 @@ main section img{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
     box-sizing: border-box;
 }
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) { 
+    
+    nav a{
+       font-size: small;
+    }
+
+    main{
+        margin: auto;
+       
+ 
+    #redes-sociais{
+        width: 85%;
+        margin: 0;
+    }
+}
+    
+    
