@@ -119,15 +119,25 @@ footer{
     
     nav a{
        font-size: small;
+       padding: 0;
     }
 
-    main{
+    main {
         margin: auto;
-       
- 
+    } 
+
     #redes-sociais{
-        width: 85%;
+        width: 90%;
         margin: 0;
+    }
+    
+    #redes-sociais img{
+        width: 20%;
+        margin: 10px;
+    }
+
+    .img-descrição{
+        width: 70%;
     }
 }
     
